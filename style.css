@@ -70,7 +70,74 @@ body{
 	border: 1px solid;
 }
 
+.page{
+	width: 780px;
+	margin auto;
+	font-family: 'arial', georgia, impact, serif, sans-serif;
+	font-size: 16px;
+	border: 5px solid;
+	border-radius: 5px;
+	box-shadow: 2px 4px 3px black;
+	padding:20px;
 
+	margin: auto;
+	position: relative;
+	top: 100px
+
+
+}
+
+.infophoto{
+    height: 250px;
+}
+
+.info{
+	float: left;
+	position: relative;
+ 	left: 10px;
+ 	top: 40px;
+}
+ .photo{
+ 	float: right;
+ 	position: relative;
+ 	right: 10px;
+ 	top: 40px;
+ }
+
+ .section{
+ 	margin-bottom: 70px;
+ 	text-align: justify;
+ }
+ .secgauche{
+ 	float: left;
+ 	font-weight: bold;
+ 	font-size:20px;
+ }
+.secdroite{
+	margin-left: 150px;
+	
+}
+h5{
+	font-size: 10px;
+	color: #3388bb;
+	border-bottom: 3px solid #3388dd;
+    
+}
+
+.titre{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#forma-gauche p{
+	margin-bottom: 40px;
+}
+#lang{
+     
+}
+#lniv{
+	margin-top: 13px;
+}
 
 
 
