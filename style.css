@@ -1,0 +1,78 @@
+
+/*Ma page index*/
+body{
+	background-color: #dbd6d6 !important;
+}
+.navbar{
+	background-color: gray;
+	padding: 20px !important;
+}
+
+.foot{
+       font-size: x-large;
+       background-color: black;
+       padding: 20px;
+	   margin-top: 420px;
+	
+	color: lightgrey;
+	text-align: center;
+}
+.form-inline{
+	position: relative;
+	bottom: 7px;
+	right: 50px;
+	font-family: impact;
+	font-size: 25px;
+	color: lime;
+	background-color: ;
+	/*border: 1px solid; */
+	display : in-line;
+}
+
+.logo{
+	/*right: 400px !important;*/
+	border: 1px solid;
+     font-size: 20px;
+} 
+
+.h1page1{
+	border: 1px solid black;
+	
+	text-align: center;
+	margin-top: 5px
+}
+
+
+#carouselExampleIndicators{
+
+	position: relative;
+	top: 420px;
+
+}
+.carousel img {
+  height: 900px;/*choisis ta taille*/
+  
+  /*Ma page Mon cv*/
+}
+.footcv{
+	font-size: x-large;
+       background-color: black;
+       padding: 20px;
+	   margin-top: 493px;
+	
+	color: lightgrey;
+	text-align: center;
+}
+
+.h1page2{
+
+	text-align: center;
+	border: 1px solid;
+}
+
+
+
+
+
+
+
