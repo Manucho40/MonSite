@@ -2,7 +2,9 @@
 /*Ma page index*/
 body{
 	background-color: #dbd6d6 !important;
+
 }
+
 .navbar{
 	background-color: gray;
 	padding: 20px !important;
@@ -12,10 +14,11 @@ body{
 	font-size: 20px;
 
 }
-a: hover{
-	color: red;
-
+h3{
+	text-decoration: underline;
 }
+
+
 
 .foot{
        font-size: x-large;
@@ -25,6 +28,24 @@ a: hover{
 	
 	color: lightgrey;
 	text-align: center;
+}
+.infobulle{
+	/*position: absolute;*/
+	color: blue;
+	transform : scale(0) rotateX(0deg);
+
+	border-left : 10px solid transparent;
+	border-right : 10px solid transparent;*/
+	transition : 
+}
+.infobulle::before{
+	content : '';
+	position : absolute;
+	border-bottom : 8px solid #2e3048;
+	border-left : 8px solid transparent;
+	border-right : 8px solid transparent;
+	margin-top : -16px;
+	margin-left : 10px;
 }
 .form-inline{
 	position: relative;
@@ -36,6 +57,9 @@ a: hover{
 	background-color: ;
 	/*border: 1px solid; */
 	display : in-line;
+}
+.element:hover > .infobulle{
+	transform : scale(1) rotateX(0deg);
 }
 
 .logo{
@@ -60,11 +84,11 @@ a: hover{
 #carouselExampleIndicators{
 
 	position: relative;
-	top: 420px;
+	top: 450px;
 
 }
 .carousel img {
-  height: 900px;/*choisis ta taille*/
+  height: 600px;/*choisis ta taille*/
   
   /*Ma page Mon cv*/
 }
@@ -214,4 +238,16 @@ h5{
 .envoi{
 	position: relative;
 	left: 300px;
+}
+
+/*icon footer*/
+
+.fb{
+	color: white;
+}
+.inst{
+	color: white;
+}
+.git{
+	color: white;
 }
