@@ -8,17 +8,35 @@ body{
 .navbar{
 	background-color: gray;
 	padding: 20px !important;
+	box-shadow: 1px 4px 1px;
 }
 .form-inline a{
 	color: black;
 	font-size: 20px;
+	transition: 3s;
+	text-decoration: none;
 
 }
+.form-inline a:hover{
+	color: white;
+}
+
+
+
 h3{
 	text-decoration: underline;
+	position: relative;
+	top: 20px;
 }
 
-
+.texte{
+	border: 3px dotted gray;
+	text-align: center;
+	background-color: gray;
+	color: #efefef;
+	position: relative;
+	top: 40px;
+}
 
 .foot{
        font-size: x-large;
@@ -29,24 +47,7 @@ h3{
 	color: lightgrey;
 	text-align: center;
 }
-.infobulle{
-	/*position: absolute;*/
-	color: blue;
-	transform : scale(0) rotateX(0deg);
 
-	border-left : 10px solid transparent;
-	border-right : 10px solid transparent;*/
-	transition : 
-}
-.infobulle::before{
-	content : '';
-	position : absolute;
-	border-bottom : 8px solid #2e3048;
-	border-left : 8px solid transparent;
-	border-right : 8px solid transparent;
-	margin-top : -16px;
-	margin-left : 10px;
-}
 .form-inline{
 	position: relative;
 	bottom: 7px;
@@ -58,9 +59,7 @@ h3{
 	/*border: 1px solid; */
 	display : in-line;
 }
-.element:hover > .infobulle{
-	transform : scale(1) rotateX(0deg);
-}
+
 
 .logo{
 	
@@ -70,6 +69,7 @@ h3{
 } 
 .logo a:hover{
 	color: black;
+	transition: 3s;
     
 }
 
@@ -77,7 +77,8 @@ h3{
 	border: 1px solid black;
 	padding: 0px;
 	text-align: center;
-	margin-top: 5px
+	
+	box-shadow: 1px 4px 1px;
 }
 
 
@@ -88,7 +89,7 @@ h3{
 
 }
 .carousel img {
-  height: 600px;/*choisis ta taille*/
+  height: 600px;
   
   /*Ma page Mon cv*/
 }
@@ -102,10 +103,12 @@ h3{
 	text-align: center;
 }
 
+
 .h1page2{
 
 	text-align: center;
 	border: 1px solid;
+	box-shadow: 1px 4px 1px;
 }
 
 .page{
@@ -192,6 +195,7 @@ h5{
 .h1page3{
 	text-align: center;
 	border: 1px solid ;
+	box-shadow: 1px 4px 1px;
 }
 
 
@@ -230,6 +234,7 @@ h5{
 	border: 1px dotted;
 	background-color: gray;
 	padding-top: 10px;
+	box-shadow: 6px 5px 4px;
 }
 .tout{
 	padding-top: 30px;
