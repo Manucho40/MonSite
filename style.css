@@ -50,8 +50,7 @@ h3{
 .lig{
 	color: white;
     display : inline-block;
-    vertical align : top; // ou baseline selon les besoin
-    // fixer une width si besoin
+    vertical align : top;
 }
 .fa-facebook-square{
 	position: relative;
@@ -260,10 +259,5 @@ h5{
 	left: 300px;
 }
 
-/*icon footer*/
 
-.f{
-	color: white;
-}
 
-}
