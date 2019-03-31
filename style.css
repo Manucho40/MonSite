@@ -47,6 +47,21 @@ h3{
 	color: lightgrey;
 	text-align: center;
 }
+.lig{
+	color: white;
+    display : inline-block;
+    vertical align : top; // ou baseline selon les besoin
+    // fixer une width si besoin
+}
+.fa-facebook-square{
+	position: relative;
+	right: 5px;
+}
+
+.fa-github{
+	position: relative;
+	left: 5px;
+}
 
 .form-inline{
 	position: relative;
@@ -247,12 +262,8 @@ h5{
 
 /*icon footer*/
 
-.fb{
+.f{
 	color: white;
 }
-.inst{
-	color: white;
-}
-.git{
-	color: white;
+
 }
