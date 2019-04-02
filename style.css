@@ -34,6 +34,9 @@ h3{
 	text-align: center;
 	background-color: gray;
 	color: #efefef;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-radius: 20px;
 	position: relative;
 	top: 40px;
 }
@@ -86,13 +89,18 @@ h3{
 	transition: 3s;
     
 }
+a{
+	text-decoration: none !important;
+}
 
 .h1page1{
-	border: 1px solid black;
+	border: 1px solid #0083ff;
+	border-radius: 30px;
 	padding: 0px;
 	text-align: center;
-	
-	box-shadow: 1px 4px 1px;
+	margin-left: 300px;
+	margin-right: 300px;
+	box-shadow: 5px 10px 4px #0083ff;
 }
 
 
@@ -120,9 +128,15 @@ h3{
 
 .h1page2{
 
+	border: 1px solid #0083ff;
+	border-radius: 30px;
+	padding: 0px;
 	text-align: center;
-	border: 1px solid;
-	box-shadow: 1px 4px 1px;
+	margin-left: 300px;
+	margin-right: 300px;
+	box-shadow: 5px 10px 4px #0083ff;
+	position: relative;
+	top: 50px;
 }
 
 .page{
@@ -207,9 +221,15 @@ h5{
 }
 
 .h1page3{
+	border: 1px solid #0083ff;
+	border-radius: 30px;
+	padding: 0px;
 	text-align: center;
-	border: 1px solid ;
-	box-shadow: 1px 4px 1px;
+	margin-left: 300px;
+	margin-right: 300px;
+	box-shadow: 5px 10px 4px #0083ff;
+	position: relative;
+	top: 50px;
 }
 
 
