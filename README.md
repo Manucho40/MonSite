@@ -1,8 +1,8 @@
 # MonSite
-# OBJECTIF
+## OBJECTIF
 Premier projet Web réalisé dans le cadre d'un exercice de classe.
 
-# STACK
+## STACK
 - HTML
 - CSS
 - BOOTSTRAP
